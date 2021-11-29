@@ -21,7 +21,7 @@ h2{
 /* top delen med billeder BEGYNDER her....*/
 .container {
     position: relative;
-    width: 90%;
+    width: 100%;
     padding: 15px;
 }
   
@@ -34,9 +34,18 @@ h2{
     border:black 1px solid;
     margin: auto;
     margin-top: 10px;
-
-    
 }
+
+.gavekort{
+  background-color: #5eaeae;
+}
+.rengøring{
+  background-color: #cfe6de;
+}
+.varer{
+  background-color: #5eaeae;
+}
+
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
     position: absolute;
@@ -50,7 +59,7 @@ h2{
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
   }
   
   .container .btn:hover {
@@ -60,14 +69,15 @@ h2{
   /* top delen med billeder SLUTTER her....*/
 
   .grid-container {
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto;
     grid-row: auto auto auto;
     gap: 5px;
-    background-color: blueviolet;
-    opacity: 85%;
     justify-content: space-evenly;
-    padding:30px;
+    background-color: #cfe6de;
+    padding:20px;
+    text-align: center;
   }
 
   .boks1 {
@@ -76,7 +86,8 @@ h2{
     grid-row-start: 1;
     grid-row-end: 1;
     border:black 1px solid;
-    padding:10px 50px
+    border-radius: 20px;
+    padding:10px 20px
   }
 
   .boks2 {
@@ -85,7 +96,8 @@ h2{
     grid-row-start: 1;
     grid-row-end: 1;
     border:black 1px solid;
-    padding:10px 50px
+    border-radius: 20px;
+    padding:10px 20px
   }
 
   .boks3 {
@@ -94,7 +106,8 @@ h2{
     grid-row-start: 2;
     grid-row-end: 2;
     border:black 1px solid;
-    padding:10px 50px
+    border-radius: 20px;
+    padding:10px 20px
   }
 
   .boks4 {
@@ -103,7 +116,8 @@ h2{
     grid-row-start: 2;
     grid-row-end: 2;
     border:black 1px solid;
-    padding:10px 50px
+    border-radius: 20px;
+    padding:10px 20px
   }
 
   .boks5 {
@@ -112,7 +126,8 @@ h2{
     grid-row-start: 3;
     grid-row-end: 3;
     border:black 1px solid;
-    padding:10px 50px
+    border-radius: 20px;
+    padding:10px 20px
   }
 
   .boks6 {
@@ -121,7 +136,8 @@ h2{
     grid-row-start: 3;
     grid-row-end: 3;
     border:black 1px solid;
-    padding:10px 50px
+    border-radius: 20px;
+    padding:10px 20px
   }
 
 
@@ -136,6 +152,7 @@ h2{
 
     .flex-container {
         display: flex;
+        background-color: #5eaeae;
     }
     
     .grid-container {
@@ -145,6 +162,7 @@ h2{
         gap: auto;
         justify-content: center;
         padding: 80px;
+        
       }
       .boks1 {
         grid-column-start: 1;
@@ -199,7 +217,4 @@ h2{
         border:black 1px solid;
         padding:10px 30px
       }
-    
-
-    
-    
+  }
