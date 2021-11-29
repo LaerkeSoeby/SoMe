@@ -1,0 +1,205 @@
+body{
+    margin:0;
+    padding: 0px;
+}
+
+h1{
+    font-size: 50px;
+    padding: 10px 30px
+}
+
+h2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+/* w3schools.com/howto/howto_css_button_on_image.asp */
+
+/* top delen med billeder BEGYNDER her....*/
+.container {
+    position: relative;
+    width: 90%;
+    padding: 15px;
+}
+  
+  /* Make the image responsive */
+.container img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 15px;
+    border:black 1px solid;
+    margin: auto;
+    margin-top: 10px;
+
+    
+}
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+  /* top delen med billeder SLUTTER her....*/
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto auto;
+    gap: 5px;
+    background-color: blueviolet;
+    opacity: 85%;
+    justify-content: space-evenly;
+    padding:30px;
+  }
+
+  .boks1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border:black 1px solid;
+    padding:10px 50px
+  }
+
+  .boks2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border:black 1px solid;
+    padding:10px 50px
+  }
+
+  .boks3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border:black 1px solid;
+    padding:10px 50px
+  }
+
+  .boks4 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border:black 1px solid;
+    padding:10px 50px
+  }
+
+  .boks5 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border:black 1px solid;
+    padding:10px 50px
+  }
+
+  .boks6 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border:black 1px solid;
+    padding:10px 50px
+  }
+
+
+
+  @media screen and (min-width: 600px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+ 
+
+    .flex-container {
+        display: flex;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-row: auto auto;
+        gap: auto;
+        justify-content: center;
+        padding: 80px;
+      }
+      .boks1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        border:black 1px solid;
+        padding:10px 70px
+      }
+    
+      .boks2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        border:black 1px solid;
+        padding:10px 70px
+      }
+    
+      .boks3 {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        border:black 1px solid;
+        padding:10px 70px
+      }
+    
+      .boks4 {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        border:black 1px solid;
+        padding:10px 70px
+      }
+    
+      .boks5 {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        border:black 1px solid;
+        padding:10px 50px
+      }
+    
+      .boks6 {
+        grid-column-start: 3;
+        grid-column-end: span 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        border:black 1px solid;
+        padding:10px 30px
+      }
+    
+
+    
+    
