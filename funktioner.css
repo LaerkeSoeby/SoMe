@@ -126,6 +126,9 @@
         .navbar-links {
             width: 50%;
             display: inline;
+            height: 70px;
+            display: flex;
+            align-items: center;
         }
         .navbar-links li {
             display: inline-block;
@@ -133,7 +136,6 @@
         }
         .navbar-links ul {
             display: flex;
-            margin: auto;
             flex-direction: row;
         }
         li {
@@ -402,7 +404,7 @@
             align-content: center;
             align-items: center;
             margin: 8px;
-            margin-top: 7%;
+            margin-top: 5%;
             background-color: #5EAEAE;
             color: #EBEBEB;
             font-family: 'Nunito', sans-serif, Arial;
