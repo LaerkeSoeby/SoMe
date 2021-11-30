@@ -17,6 +17,7 @@
     margin-right: 0;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
     height: 70px;
+    width: 320px;
 }
 
 .navbar-links ul {
@@ -166,6 +167,10 @@ body {
     background-color: #EBEBEB;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .front-img {
     display: none;
 }
@@ -201,6 +206,35 @@ body {
     font-size: 16px;
     margin: 35px 50px 0px 12px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+
+.knap-container {
+    margin: 0;
+    background-color: #CFE6DE;
+    height: 250px;
+    width: 320px;
+    margin-top: 50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.knap {
+    background-color: #5EAEAE;
+    color: #EBEBEB;
+    font-family: 'Nunito', sans-serif, Arial;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    height: 110px;
+    width: 125px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    margin: 10px;
+    margin-top: -25px;
+    text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
 }
 
 
