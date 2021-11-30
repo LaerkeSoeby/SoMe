@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,800&display=swap');
+:root{
+    --font: 'nunito', sans-serif;
+    --shadow:1px 1px 4px 0px rgb(108, 107, 107);
+    --mørkgrøn: #27847f;
+    --grøn: #5eaeae;
+    --lysgrøn: #cfe6de;
+    --grå: #ebebeb;
+    --gul: #f1c075;
+    --sortgrøn: #132c2c;
+}
+/* nav begynder */
+#logo {
+    height: 62px;
+    margin: .5rem;
+}
+.navbar {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CFE6DE;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    height: 70px;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links li a {
+    text-decoration: none;
+    color: #132C2C;
+    padding: 1rem;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #CFE6DE;
+    text-align: left;
+}
+.toggle-button {
+    position: absolute;
+    top: 27px;
+    right: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+}
+.toggle-button .bar {
+    height: 5px;
+    width: 60px;
+    background-color: #27847F;
+    border-radius: 10px;
+}
+.toggle-button {
+    display: flex;
+    position: absolute;
+}
+.navbar-links {
+    display: none;
+    width: 100%;
+}
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+}
+.navbar-links li {
+    text-align: center;
+}
+.navbar-links a {
+    padding: .5rem 1rem;
+}
+.navbar-links.active {
+    display: flex;
+}
+/*Navbar slut*/
+/*Første sektion med overskrift, liste og knap*/
+h1{
+    background-color: var(--mørkgrøn);
+    font-family: var(--font);
+    color: var(--lysgrøn);
+    width: 10em;
+    border-radius: 25px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    margin-left: 1.3em;
+    box-shadow: var(--shadow);
+}
+.medlemsfordele{
+    position: relative;
+    border-radius: 25px;
+    z-index: -1;
+    margin-top: -4em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 3.5em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+    background-color: var(--lysgrøn);
+    font-family: var(--font);
+    line-height: 2em;
+    list-style: "+  ";
+    box-shadow: var(--shadow);
+}
+.boksogknap{
+    position: relative;
+}
+.premiumknap{
+    position: absolute;
+    font-family: var(--font);
+    background-color: var(--gul);
+    border-radius: 25px;
+    padding:0.7em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    bottom: -2.5em;
+    right: -0.35em;
+    box-shadow: var(--shadow);
+}
+.note{
+    position: absolute;
+    font-family: var(--font);
+    font-size:small;
+    font-style: italic;
+    bottom: -5em;
+    right: 0em;
+}
+/*Første sektion slut*/
+hr{
+    border-style: dashed;
+    color: var(--mørkgrøn);
+    margin-top: 6em;
+    margin-bottom: 2em;
+    width: 81vw;
+}
+/*Anden sektion med formular til oplysninger*/
+.opret-konto h3{
+    background-color: var(--grøn);
+    font-family: var(--font);
+    color: var(--grå);
+    width: 8em;
+    border-radius: 25px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    margin-left:1.2em;
+    box-shadow: var(--shadow);
+}
+.formular{
+    position: relative;
+    z-index: -1;
+    margin-top: -3em;
+    font-family: var(--font);
+    background-color: var(--lysgrøn);
+    box-shadow: var(--shadow);
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top:2.5em;
+    padding-left: 2em;
+    padding-right:2em;
+}
+.udfyld{
+    width: 80vw;
+    max-width: 25em;
+    height: 2em;
+    border-style: none;
+    box-shadow: var(--shadow);
+    border-radius: 25px;
+    margin-bottom:1.5em;
+}
+.bund{
+    margin-bottom: -1em;
+}
+.opret-konto p{
+    position: relative;
+    font-family: var(--font);
+    font-size:x-small;
+    top: 1em;
+    left: 3.5em;
+}
+/*Anden sektion slut*/
+/*Tredje sektion med valg af abonnement*/
+.vælg-abonnement h3{
+    position: absolute;
+    background-color: var(--grøn);
+    font-family: var(--font);
+    color: var(--grå);
+    width: 9.5em;
+    border-radius: 25px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    margin-left: 1.6em;
+    margin-top: -3em;
+    box-shadow: var(--shadow);
+}
+.vælg-abonnement{
+    background-color: var(--mørkgrøn);
+    box-shadow: var(--shadow);
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    margin-top: 4em; 
+
+}
+.vælg-abonnement section{
+    position: relative;
+    border-radius: 25px;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    padding-right: 1em;
+    background-color: var(--lysgrøn);
+    font-family: var(--font);
+    line-height: 1.5em;
+    box-shadow: var(--shadow);
+}
+.vælg-abonnement h4{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+.vælg-abonnement li{
+    list-style: "-  ";
+}
+.mnd3{
+    position: relative;
+}
+.spar18{
+    font-family: var(--font);
+    font-size:1.5em;
+    background-color: var(--gul);
+    box-shadow: var(--shadow);
+    position: absolute;
+    border-radius: 25px;
+    padding: 1em;
+    width: 2.3em;
+    text-align: center;
+    bottom: -2em;
+    right: -1.3em;
+}
+.mnd6{
+    position: relative;
+}
+.spar30{
+    font-family: var(--font);
+    font-size:1.5em;
+    background-color: var(--gul);
+    box-shadow: var(--shadow);
+    position: absolute;
+    border-radius: 25px;
+    padding: 1em;
+    width: 2.3em;
+    text-align: center;
+    bottom: -2em;
+    right: -1.3em;
+}
+.info{
+    background-color: var(--grøn);
+    color: var(--lysgrøn);
+    font-family: var(--font);
+    padding: 1em;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top:2.3em;
+    box-shadow: var(--shadow);
+}
+/*Tjekbokse og opret knap nederst på siden*/
+.accept input{
+    position: absolute;
+}
+.valg{
+   display: block; 
+   position: relative;
+   margin-left: 2em;
+   padding-bottom: 1.5em;
+}
+.accept{
+    margin-left: 2em;
+    margin-top: 6em;
+    font-family: var(--font);
+}
+.opret-knap{
+    background-color: var(--gul);
+    font-family: var(--font);
+    border-radius: 25px;
+    padding: 0.2em;
+    width: 11em;
+    text-align: center;
+    box-shadow: var(--shadow);
+    margin:auto;
+}
+/*Tredje sektion slut*/
+.afslut{
+    margin-top: 2em;
+}
+@media screen and (min-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-color: #EBEBEB;
+    }
+    .logo {
+        padding: 3px;
+    }
+    .toggle-button {
+        display: none;
+    }
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        min-width: none;
+    }
+    .navbar-links li a {
+        text-decoration: none;
+        color: #27847F;
+        padding: 1rem;
+        display: block;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        background-color: #CFE6DE;
+        text-align: left;
+    }
+    .navbar-links {
+        width: 50%;
+        display: inline;
+    }
+    .navbar-links li {
+        display: inline-block;
+        justify-content: right;
+    }
+    .navbar-links ul {
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        display: block;
+        position: relative;
+        margin: 0;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: 'Nunito', sans-serif, Arial;
+        z-index: 9;
+    }
+    li i {
+        margin: 0;
+    }
+    li a:hover {
+        color: #F1C075;
+    }
+    li a:active {
+        color: #F1C075;
+    }
+}
+    /* Nav Slut */
