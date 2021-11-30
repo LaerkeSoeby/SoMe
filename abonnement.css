@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,800&display=swap');
+:root{
+    --font: 'nunito', sans-serif;
+    --shadow:1px 1px 4px 0px rgb(108, 107, 107);
+}
+/* nav begynder */
+
+#logo {
+    height: 62px;
+    margin: .5rem;
+}
+
+.navbar {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CFE6DE;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    height: 70px;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #132C2C;
+    padding: 1rem;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #CFE6DE;
+    text-align: left;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 27px;
+    right: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.toggle-button .bar {
+    height: 5px;
+    width: 60px;
+    background-color: #27847F;
+    border-radius: 10px;
+}
+
+.toggle-button {
+    display: flex;
+    position: absolute;
+}
+
+.navbar-links {
+    display: none;
+    width: 100%;
+}
+
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar-links li {
+    text-align: center;
+}
+
+.navbar-links a {
+    padding: .5rem 1rem;
+}
+
+.navbar-links.active {
+    display: flex;
+}
+
+h1{
+    background-color: #27847F;
+    font-family: var(--font);
+    color:#CFE6DE;
+    width: 10em;
+    border-radius: 25px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    margin-left: 1.3em;
+    box-shadow: var(--shadow);
+}
+.medlemsfordele{
+    position: relative;
+    border-radius: 25px;
+    z-index: -1;
+    margin-top: -4em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 3.5em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+    background-color: #CFE6DE;
+    font-family: var(--font);
+    line-height: 2em;
+    list-style: "+  ";
+    box-shadow: var(--shadow);
+}
+.boksogknap{
+    position: relative;
+}
+.premiumknap{
+    position: absolute;
+    font-family: var(--font);
+    background-color: #F1C075;
+    border-radius: 25px;
+    padding:0.7em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    bottom: -2.5em;
+    right: -0.35em;
+    box-shadow: var(--shadow);
+}
+.note{
+    position: absolute;
+    font-family: var(--font);
+    font-size:small;
+    font-style: italic;
+    bottom: -5em;
+    right: 0em;
+}
+hr{
+    border-style: dashed;
+    color: #27847f;
+    margin-top: 6em;
+    width: 81vw;
+}
+
+@media screen and (min-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        background-color: #EBEBEB;
+    }
+    .logo {
+        padding: 3px;
+    }
+    .toggle-button {
+        display: none;
+    }
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        min-width: none;
+    }
+    .navbar-links li a {
+        text-decoration: none;
+        color: #27847F;
+        padding: 1rem;
+        display: block;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        background-color: #CFE6DE;
+        text-align: left;
+    }
+    .navbar-links {
+        width: 50%;
+        display: inline;
+    }
+    .navbar-links li {
+        display: inline-block;
+        justify-content: right;
+    }
+    .navbar-links ul {
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        display: block;
+        position: relative;
+        margin: 0;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: 'Nunito', sans-serif, Arial;
+        z-index: 9;
+    }
+    li i {
+        margin: 0;
+    }
+    li a:hover {
+        color: #F1C075;
+    }
+    li a:active {
+        color: #F1C075;
+    }
+}
+    /* Nav Slut */
