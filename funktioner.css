@@ -237,6 +237,52 @@ html {
     cursor: pointer;
 }
 
+hr {
+    border-top: 3px dotted#43827E;
+    margin-left: 20px;
+    margin-right: 58px;
+}
+
+.hacks-img {
+    height: 280px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.hack-knap {
+    background-color: #27847F;
+    color: #EBEBEB;
+    font-family: 'Nunito', sans-serif, Arial;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    height: 110px;
+    width: 125px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    margin: 10px;
+    margin-top: -85px;
+    margin-left: 150px;
+    text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    position: absolute;
+}
+
+.brødtekst-funktioner {
+    background-color: #CFE6DE;
+    width: 265px;
+    text-align: left;
+    color: #132C2C;
+    padding: 17px 10px 17px 17px;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif, Arial;
+    font-size: 16px;
+    margin: 35px 50px 0px 12px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+
 
 /* Mobil version slut*/
 
