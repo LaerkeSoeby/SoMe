@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="abonnement.css">
 </head>
 <body>
+    <!--Navigationsbar start-->
     <header>
         <nav class="navbar">
             <a href="index.html">
@@ -29,6 +30,8 @@
         </nav>
     </header>
     <script src="script.js"></script>
+    <!--Navigationsbar slut--> 
+    <!--Øverste sektion på siden med overskrift, liste og knap-->
     <section class="ompremium">
         <h1>BoligBoss Premium</h1>
         <div class="boksogknap">
@@ -45,6 +48,7 @@
         </div>
     </section>
     <hr>
+    <!--Anden sektion på siden, med formular til at udfylde oplysninger-->
     <section class="opret-konto">
         <h3>Opret en konto</h3>
         <form class="formular">
@@ -61,12 +65,58 @@
         </form>
         <p>Felter markeret med * skal udfyldes</p>
     </section>
+    <!--Tredje sektion mede valg af abonnement-->
     <section class="vælg-abonnement">
         <h3>Vælg abonnement</h3>
+        <section class="mnd1">
+            <h4>1 måned - 39,-</h4>
+            <ul>
+                <li>39,00/mdr</li>
+                <li>7 dages prøveperiode</li>
+                <li>Adgang til alle hacks</li>
+                <li>Ingen reklamer</li>
+                <li>Ingen binding</li>
+            </ul>
+        </section>
+        <section class="mnd3">
+            <h4>3 måneder - 99,-</h4>
+            <ul>
+                <li>33,00/mdr</li>
+                <li>14 dages prøveperiode</li>
+                <li>Adgang til alle hacks</li>
+                <li>Ingen reklamer</li>
+                <li>Ingen binding</li>
+            </ul>
+        <p class="spar18">Spar 18%</p>
+        </section>
+        <section class="mnd6">
+            <h4>6 måneder - 179,-</h4>
+            <ul>
+                <li>29,83/mdr</li>
+                <li>14 dages prøveperiode</li>
+                <li>Adgang til alle hacks</li>
+                <li>Ingen reklamer</li>
+                <li>Ingen binding</li>
+            </ul>
+            <p class="spar30">Spar 30%</p>
+        </section>
+        <p class="info">* Adgang til partnerfordele er ikke tilgængelig i prøveperiode og kræver betaling af abonnement.</p>
     </section>
-    <hr>
+    <!--Tjekbokse til vilkår og opret knap, nedeerst på siden-->
+    <form class="accept">
+        <input type="checkbox" name="vilkår" class="vilkår">
+        <label class="valg">Jeg accepterer BoligBoss’ <a href="">handelsbetingelser</a> og <a href="">vilkår</a></label><br>
+        <input type="checkbox" name="nyhedsbrev" class="nyhedsbrev">
+        <label class="valg">Ja tak, til nyhedsbrev på mail</label>
+    </form>
+    <section class="opret-knap">
+        <h3>Opret Premium</h3>
+    </section>
+    <hr class="afslut">
+    <!--Footer start-->
     <footer>
 
     </footer>
+    <!--Footer slut-->
 </body>
 </html>
