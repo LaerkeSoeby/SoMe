@@ -161,190 +161,178 @@
     /* Nav Slut */
     /* Mobil version */
     
-    body {
-        background-color: #EBEBEB;
-        margin: 0;
-        overflow-x: hidden;
-        height: 100%;
-        padding: 0;
-        max-width: 100%;
-        overflow-x: none;
-    }
-    
-    html {
-        scroll-behavior: smooth;
-        overflow-x: none;
-    }
-    
-    .front-img {
-        display: none;
-    }
-    
-    .front-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .overskrift {
-        background-color: #27847F;
-        width: 250px;
-        text-align: center;
-        color: #EBEBEB;
-        padding: 17px 5px 17px 5px;
-        border-radius: 20px;
-        font-family: 'Nunito', sans-serif, Arial;
-        font-weight: bolder;
-        font-size: 22px;
-        margin: 12px 50px 0px 12px;
-        position: absolute;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-    }
-    
-    .brødtekst {
-        background-color: #CFE6DE;
-        width: 265px;
-        text-align: left;
-        color: #132C2C;
-        padding: 50px 10px 17px 17px;
-        border-radius: 20px;
-        font-family: 'Nunito', sans-serif, Arial;
-        font-size: 16px;
-        margin: 35px 50px 0px 12px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-    }
-    
-    .knap-container {
-        margin: 0;
-        background-color: #CFE6DE;
-        height: 250px;
-        width: 100%;
-        margin-top: 50px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .knap-items {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        margin: 8px;
-        margin-top: -25px;
-        background-color: #5EAEAE;
-        color: #EBEBEB;
-        font-family: 'Nunito', sans-serif, Arial;
-        font-weight: bolder;
-        text-align: center;
-        font-size: 15px;
-        height: 110px;
-        width: 125px;
-        border-radius: 15px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-        text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        cursor: pointer;
-    }
-    
-    .knap-items h1 {
-        margin: 0;
-        color: #EBEBEB;
-    }
-    
-    .knap-items a {
-        text-decoration: none;
-    }
-    
-    hr {
-        border-top: 3px dotted#43827E;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    .grå-img {
-        height: 280px;
-        width: 200px;
-        border-radius: 20px;
-        margin-left: 15px;
-        margin-top: 20px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-    }
-    
-    .grå-knap {
-        background-color: #27847F;
-        color: #EBEBEB;
-        font-family: 'Nunito', sans-serif, Arial;
-        font-weight: bolder;
-        text-align: center;
-        font-size: 25px;
-        height: 110px;
-        width: 125px;
-        border-radius: 15px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-        text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        cursor: pointer;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        margin: 8px;
-        margin-top: -55px;
-        margin-left: 140px;
-    }
-    
-    .brødtekst-funktioner {
-        background-color: #CFE6DE;
-        width: 265px;
-        text-align: left;
-        color: #132C2C;
-        padding: 17px 10px 17px 17px;
-        border-radius: 20px;
-        font-family: 'Nunito', sans-serif, Arial;
-        font-size: 16px;
-        margin: 60px 50px 0px 12px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-    }
-    
-    .blå-section {
-        margin: 0;
-        background-color: #5EAEAE;
-        height: 500px;
-        width: 100%;
-        margin-top: 100px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-    }
-    
-    .blå-knap {
-        background-color: #27847F;
-        color: #EBEBEB;
-        font-family: 'Nunito', sans-serif, Arial;
-        font-weight: bolder;
-        text-align: center;
-        font-size: 25px;
-        height: 110px;
-        width: 125px;
-        border-radius: 15px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-        text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        cursor: pointer;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        margin: 8px;
-        margin-top: -55px;
-        margin-left: 50px;
-    }
-    
-    .blå-img {
-        height: 280px;
-        width: 200px;
-        border-radius: 20px;
-        margin-left: 110px;
-        margin-top: -50px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    @media screen and (max-width: 600px) {
+        body {
+            background-color: #EBEBEB;
+            margin: 0;
+            overflow-x: hidden;
+            height: 100%;
+            padding: 0;
+            max-width: 100%;
+            overflow-x: none;
+        }
+        html {
+            scroll-behavior: smooth;
+            overflow-x: none;
+        }
+        .front-img {
+            display: none;
+        }
+        .front-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .overskrift {
+            background-color: #27847F;
+            width: 250px;
+            text-align: center;
+            color: #EBEBEB;
+            padding: 17px 5px 17px 5px;
+            border-radius: 20px;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-weight: bolder;
+            font-size: 22px;
+            margin: 12px 50px 0px 12px;
+            position: absolute;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            margin-left: 10%
+        }
+        .brødtekst {
+            background-color: #CFE6DE;
+            width: 265px;
+            text-align: left;
+            color: #132C2C;
+            padding: 50px 10px 17px 17px;
+            border-radius: 20px;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-size: 16px;
+            margin: 35px 50px 0px 12px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            margin-left: 11%
+        }
+        .knap-container {
+            margin: 0;
+            background-color: #CFE6DE;
+            height: 250px;
+            width: 100%;
+            margin-top: 50px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .knap-items {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin: 8px;
+            margin-top: -25px;
+            background-color: #5EAEAE;
+            color: #EBEBEB;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 15px;
+            height: 110px;
+            width: 125px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            cursor: pointer;
+        }
+        .knap-items h1 {
+            margin: 0;
+            color: #EBEBEB;
+        }
+        .knap-items a {
+            text-decoration: none;
+        }
+        hr {
+            border-top: 3px dotted#43827E;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .grå-img {
+            height: 280px;
+            width: 200px;
+            border-radius: 20px;
+            margin-left: 15px;
+            margin-top: 20px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+        }
+        .grå-knap {
+            background-color: #27847F;
+            color: #EBEBEB;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 25px;
+            height: 110px;
+            width: 125px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            cursor: pointer;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin: 8px;
+            margin-top: -55px;
+            margin-left: 140px;
+        }
+        .brødtekst-funktioner {
+            background-color: #CFE6DE;
+            width: 265px;
+            text-align: left;
+            color: #132C2C;
+            padding: 17px 10px 17px 17px;
+            border-radius: 20px;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-size: 16px;
+            margin: 60px 50px 0px 12px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+        }
+        .blå-section {
+            margin: 0;
+            background-color: #5EAEAE;
+            height: 500px;
+            width: 100%;
+            margin-top: 100px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+        }
+        .blå-knap {
+            background-color: #27847F;
+            color: #EBEBEB;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 25px;
+            height: 110px;
+            width: 125px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            cursor: pointer;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin: 8px;
+            margin-top: -55px;
+            margin-left: 50px;
+        }
+        .blå-img {
+            height: 280px;
+            width: 200px;
+            border-radius: 20px;
+            margin-left: 110px;
+            margin-top: -50px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+        }
     }
     /* Mobil version slut*/
     /* Web version starter*/
@@ -444,6 +432,115 @@
         }
         ul hr {
             display: none;
+        }
+        .grå-section {
+            margin: 0;
+            background-color: #CFE6DE;
+            height: 280px;
+            width: 100%;
+            margin-top: 100px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+        }
+        .grå-img {
+            height: 330px;
+            width: 250px;
+            border-radius: 20px;
+            margin-left: 22%;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            margin-top: -2%;
+        }
+        .grå-knap {
+            background-color: #27847F;
+            color: #EBEBEB;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 25px;
+            height: 110px;
+            width: 125px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            cursor: pointer;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin: 8px;
+            margin-top: -55px;
+            margin-left: 37%;
+        }
+        .brødtekst-funktioner {
+            background-color: #CFE6DE;
+            width: 300px;
+            text-align: left;
+            color: #132C2C;
+            padding: 17px 10px 17px 17px;
+            border-radius: 20px;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-size: 16px;
+            margin-top: -12%;
+            margin-left: 52%;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+        }
+        .blå-section {
+            margin: 0;
+            background-color: #5EAEAE;
+            height: 280px;
+            width: 100%;
+            margin-top: 15%;
+            margin-bottom: 15%;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+        }
+        .blå-img {
+            height: 330px;
+            width: 250px;
+            border-radius: 20px;
+            margin-left: 57%;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            margin-top: -2%;
+        }
+        .blå-knap {
+            background-color: #27847F;
+            color: #EBEBEB;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 25px;
+            height: 110px;
+            width: 125px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+            text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            cursor: pointer;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin: 8px;
+            margin-top: -55px;
+            margin-left: 50%;
+        }
+        .blå-section .brødtekst-funktioner {
+            background-color: #CFE6DE;
+            width: 300px;
+            text-align: left;
+            color: #132C2C;
+            padding: 17px 10px 17px 17px;
+            border-radius: 20px;
+            font-family: 'Nunito', sans-serif, Arial;
+            font-size: 16px;
+            margin-top: -12%;
+            margin-left: 22%;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+        }
+        .hr-bund {
+            border-top: 3px dotted#43827E;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 2%;
         }
     }
     /* Web version slut*/
