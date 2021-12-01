@@ -71,7 +71,7 @@ hr {
 .container {
     position: relative;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -100,7 +100,7 @@ hr {
 }
 
 .gavekort {
-    height: 120px;
+    height: 150px;
     background-color: #5eaeae;
     margin-top: 80px;
     margin-bottom: 90px;
@@ -281,44 +281,56 @@ hr {
     }
     .btn {
         position: absolute;
-        top: 13%;
+        top: 14%;
         left: 17%;
         width: 200px;
         height: 80px;
         font-size: 30px;
     }
+
     .flex-container {
-        display: flex;
+        display:flex;
         width:100%;
-        background-color: #5eaeae;
-        margin-top: 80px;
+        margin-top: 150px;
         margin-bottom: 100px;
-        
     }
+    
     .container .btn {
         position: absolute;
         width: 120px;
         height: 50px;
-        top: 100%;
-        left: 50%;
+        top: 77%;
+        left: 58%;
+    }
+
+    .container .btn.rengøring {
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        top: 77%;
+        left: 72%;
     }
 
     .gavekort {
-        height: 120px;
         background-color: #5eaeae;
-        margin-top: 80px;
-        margin-bottom: 90px;
-        
+        height: 350px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding:0px;
     }
     
     .rengøring {
         background-color: #5eaeae;
-        margin-bottom: 90px;
+        height: 350px;
+        margin-bottom: 50px;
+        padding:0px;
     }
     
     .varer {
         background-color: #5eaeae;
+        height: 350px;
         margin-bottom: 50px;
+        padding:0px;
     }
     .grid-container {
         display: grid;
