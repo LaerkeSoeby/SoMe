@@ -11,7 +11,7 @@ h1{
     width:280px;
     padding-top: 35px;
     margin-top: 90px;
-    margin-left: 20px;
+    margin-left: 38px;
     color:#132c2c;
     background-color: #cfe6de;
     font-size: 18px;
@@ -21,11 +21,13 @@ h1{
 }
 
 h2{
+    position: absolute;
+    z-index: 2;
     height:20px;
     width:250px;
     padding: 30px 20px;
-    margin-left: 32px;
-    margin-bottom:0px;
+    margin-left: 35px;
+    margin-top: -50px;
     color:#CFE6DE;
     background-color: #27847f;
     font-size: 20px;
@@ -38,7 +40,7 @@ h2{
     position: absolute;
     width:150px;
     height:60px;
-    top: 9%;
+    top: 15%;
     left: 30%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -127,7 +129,7 @@ h2{
     column-width: 3px;
     justify-content: space-evenly;
     background-color: #cfe6de;
-    padding: 20px 4px;
+    padding: 60px 4px;
     font-family:'Nunito', sans-serif;
     text-align: center;
   }
