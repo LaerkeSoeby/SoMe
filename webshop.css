@@ -16,6 +16,7 @@ h1 {
     font-family: 'Nunito', sans-serif;
     text-align: center;
     border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 h2 {
@@ -32,6 +33,7 @@ h2 {
     font-family: 'Nunito', sans-serif;
     text-align: center;
     border-radius: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .btn {
@@ -51,6 +53,7 @@ h2 {
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 
@@ -76,6 +79,7 @@ h2 {
     margin: auto;
     margin-left: 20px;
     margin-top: -50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .gavekort {
@@ -115,6 +119,7 @@ h2 {
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .container .btn:hover {
@@ -149,6 +154,7 @@ h2 {
     background-color: #5eaeae;
     border-radius: 25px;
     padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks2 {
@@ -160,7 +166,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks3 {
@@ -172,7 +179,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks4 {
@@ -184,7 +192,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks5 {
@@ -197,7 +206,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks6 {
@@ -210,7 +220,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 @media screen and (min-width: 600px) {
