@@ -1,45 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,800&display=swap');
-
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0px;
 }
 
-
-h1{
-    height:100px;
-    width:280px;
+h1 {
+    height: 100px;
+    width: 280px;
     padding-top: 35px;
     margin-top: 90px;
     margin-left: 38px;
-    color:#132c2c;
+    color: #132c2c;
     background-color: #cfe6de;
     font-size: 18px;
-    font-family:'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     border-radius: 15px;
 }
 
-h2{
+h2 {
     position: absolute;
     z-index: 2;
-    height:20px;
-    width:250px;
+    height: 20px;
+    width: 250px;
     padding: 30px 20px;
     margin-left: 35px;
     margin-top: -50px;
-    color:#CFE6DE;
+    color: #CFE6DE;
     background-color: #27847f;
     font-size: 20px;
-    font-family:'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     border-radius: 30px;
 }
 
-.btn{
+.btn {
     position: absolute;
-    width:150px;
-    height:60px;
+    width: 150px;
+    height: 60px;
     top: 15%;
     left: 30%;
     transform: translate(-50%, -50%);
@@ -48,26 +46,28 @@ h2{
     color: #cfe6de;
     font-size: 22px;
     font-weight: bold;
-    font-family:'Nunito', sans-serif;
-    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
     border: none;
     cursor: pointer;
     border-radius: 20px;
-
-
 }
+
 
 /* w3schools.com/howto/howto_css_button_on_image.asp */
 
+
 /* top delen med billeder BEGYNDER her....*/
+
 .container {
     position: relative;
     width: 100%;
     padding: 15px;
-  }
+}
 
 
-  /* Make the image responsive */
+/* Make the image responsive */
+
 .container img {
     width: 60%;
     height: auto;
@@ -78,26 +78,30 @@ h2{
     margin-top: -50px;
 }
 
-.gavekort{
-  height:120px;
-  background-color: #5eaeae;
-  margin-top: 80px;
-  margin-bottom: 90px;
-}
-.rengøring{
-  background-color: #cfe6de;
-  margin-bottom: 90px;
-}
-.varer{
-  background-color: #5eaeae;
-  margin-bottom: 90px;
+.gavekort {
+    height: 120px;
+    background-color: #5eaeae;
+    margin-top: 80px;
+    margin-bottom: 90px;
 }
 
+.rengøring {
+    background-color: #cfe6de;
+    margin-bottom: 90px;
+}
+
+.varer {
+    background-color: #5eaeae;
+    margin-bottom: 90px;
+}
+
+
 /* Style the button and place it in the middle of the container/image */
+
 .container .btn {
     position: absolute;
-    width:120px;
-    height:50px;
+    width: 120px;
+    height: 50px;
     top: 80%;
     left: 70%;
     transform: translate(-50%, -50%);
@@ -106,22 +110,23 @@ h2{
     color: #132c2c;
     font-size: 15px;
     font-weight: bold;
-    font-family:'Nunito', sans-serif;
-    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
     border: none;
     cursor: pointer;
     border-radius: 20px;
-  }
-  
-  .container .btn:hover {
+}
+
+.container .btn:hover {
     background-color: black;
-  }
+}
 
-  /* top delen med billeder SLUTTER her....*/
 
-  .grid-container {
+/* top delen med billeder SLUTTER her....*/
+
+.grid-container {
     width: 100%;
-    margin-top:0px;
+    margin-top: 0px;
     display: grid;
     grid-template-columns: auto auto;
     grid-row: auto auto auto;
@@ -130,12 +135,12 @@ h2{
     justify-content: space-evenly;
     background-color: #cfe6de;
     padding: 60px 4px;
-    font-family:'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
-  }
+}
 
-  .boks1 {
-    width:120px;
+.boks1 {
+    width: 120px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -143,12 +148,11 @@ h2{
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding:8px 10px;
-    
-  }
+    padding: 8px 10px;
+}
 
-  .boks2 {
-    width:120px;
+.boks2 {
+    width: 120px;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -156,11 +160,11 @@ h2{
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding:8px 10px
-  }
+    padding: 8px 10px
+}
 
-  .boks3 {
-    width:120px;
+.boks3 {
+    width: 120px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
@@ -168,11 +172,11 @@ h2{
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding:8px 10px
-  }
+    padding: 8px 10px
+}
 
-  .boks4 {
-    width:120px;
+.boks4 {
+    width: 120px;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -180,11 +184,11 @@ h2{
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding:8px 10px
-  }
+    padding: 8px 10px
+}
 
-  .boks5 {
-    width:120px;
+.boks5 {
+    width: 120px;
     height: 40px;
     grid-column-start: 1;
     grid-column-end: 1;
@@ -193,11 +197,11 @@ h2{
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding:8px 10px
-  }
+    padding: 8px 10px
+}
 
-  .boks6 {
-    width:120px;
+.boks6 {
+    width: 120px;
     height: 40px;
     grid-column-start: 2;
     grid-column-end: 2;
@@ -206,71 +210,61 @@ h2{
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding:8px 10px
-  }
+    padding: 8px 10px
+}
 
-
-
-  @media screen and (min-width: 600px){
-
-    *{
+@media screen and (min-width: 600px) {
+    * {
         margin: 0px;
         padding: 0px;
-      }
- 
-      h1{
+    }
+    ul hr {
+        display: none;
+    }
+    h1 {
         margin-top: 90px;
         margin-left: 233px;
-      }
-  
-      h2{
+    }
+    h2 {
         padding: 30px 20px;
         margin-left: 640px;
-        margin-bottom:0px;
-      }
-
-      .btn{
+        margin-bottom: 0px;
+    }
+    .btn {
         position: absolute;
         top: 9%;
         left: 16%;
-  
-      }  
+    }
     .flex-container {
         display: flex;
         background-color: #5eaeae;
         margin-top: 80px;
         margin-bottom: 100px;
-      }
-    
+    }
     .container .btn {
         position: absolute;
-        width:120px;
-        height:50px;
-        top:100%;
+        width: 120px;
+        height: 50px;
+        top: 100%;
         left: 50%;
-      }
-
-    .rengøring{
+    }
+    .rengøring {
         background-color: #5eaeae;
         margin-bottom: 90px;
-      }
-
-   
+    }
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-row: auto auto;
-        height:30px;
+        height: 30px;
         row-gap: 18px;
         column-gap: 20px;
         column-width: 20px;
         justify-content: center;
         padding: 80px;
-        
-        
-      }
-      .boks1 {
-        width:160px;
+    }
+    .boks1 {
+        width: 160px;
         height: 40px;
         grid-column-start: 1;
         grid-column-end: 1;
@@ -279,11 +273,10 @@ h2{
         color: #ebebeb;
         background-color: #5eaeae;
         border-radius: 25px;
-        padding:8px 10px;
-      }
-    
-      .boks2 {
-        width:160px;
+        padding: 8px 10px;
+    }
+    .boks2 {
+        width: 160px;
         height: 40px;
         grid-column-start: 2;
         grid-column-end: 2;
@@ -292,11 +285,10 @@ h2{
         color: #ebebeb;
         background-color: #5eaeae;
         border-radius: 25px;
-        padding:8px 10px;
-      }
-    
-      .boks3 {
-        width:160px;
+        padding: 8px 10px;
+    }
+    .boks3 {
+        width: 160px;
         height: 40px;
         grid-column-start: 3;
         grid-column-end: 3;
@@ -305,11 +297,10 @@ h2{
         color: #ebebeb;
         background-color: #5eaeae;
         border-radius: 25px;
-        padding:8px 10px;
-      }
-    
-      .boks4 {
-        width:160px;
+        padding: 8px 10px;
+    }
+    .boks4 {
+        width: 160px;
         height: 40px;
         grid-column-start: 4;
         grid-column-end: 4;
@@ -318,11 +309,10 @@ h2{
         color: #ebebeb;
         background-color: #5eaeae;
         border-radius: 25px;
-        padding:8px 10px;
-      }
-    
-      .boks5 {
-        width:160px;
+        padding: 8px 10px;
+    }
+    .boks5 {
+        width: 160px;
         height: 40px;
         grid-column-start: 2;
         grid-column-end: span 2;
@@ -331,11 +321,10 @@ h2{
         color: #ebebeb;
         background-color: #5eaeae;
         border-radius: 25px;
-        padding:8px 10px;
-      }
-    
-      .boks6 {
-        width:160px;
+        padding: 8px 10px;
+    }
+    .boks6 {
+        width: 160px;
         height: 40px;
         grid-column-start: 3;
         grid-column-end: span 2;
@@ -343,7 +332,6 @@ h2{
         grid-row-end: 2;
         background-color: #5eaeae;
         border-radius: 25px;
-        padding:8px 10px;
-        
-      }
-  }
+        padding: 8px 10px;
+    }
+}

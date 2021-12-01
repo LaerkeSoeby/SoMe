@@ -99,6 +99,9 @@
         margin: 0px;
         padding: 0px;
     }
+    ul hr {
+        display: none;
+    }
     body {
         background-color: #EBEBEB;
     }
@@ -162,9 +165,8 @@
     }
 }
 
+
 /* Nav Slut */
-
-
 
 
 /* START PÅ FOOTER */
@@ -174,10 +176,12 @@ footer {
     margin-bottom: 40px;
     padding: 10px;
     background-color: var(--color1);
-    background-color: #27847f;  /* Til ældre browsere */
+    background-color: #27847f;
+    /* Til ældre browsere */
 }
 
-footer nav, footer .socials {
+footer nav,
+footer .socials {
     width: 90%;
     max-width: 480px;
     margin: 0 auto;
@@ -187,7 +191,8 @@ footer nav, footer .socials {
 }
 
 @media only screen and (min-width: 444px) {
-    footer nav, footer .socials {
+    footer nav,
+    footer .socials {
         width: 80%;
     }
 }
@@ -195,8 +200,9 @@ footer nav, footer .socials {
 footer nav a {
     margin: 0 4px;
     text-decoration: none;
-    color: var(--color3);  
-    color: #CFE6DE;   /* Til ældre browsere */
+    color: var(--color3);
+    color: #CFE6DE;
+    /* Til ældre browsere */
     font-weight: 700;
 }
 
@@ -213,18 +219,22 @@ footer .socials a {
     margin: 8px;
 }
 
-footer .socials a:nth-child(1) {    /* Instagram-ikon */
+footer .socials a:nth-child(1) {
+    /* Instagram-ikon */
     background-image: url("img/footer-icon-1.svg");
 }
 
-footer .socials a:nth-child(2) {    /* TikTok-ikon */
+footer .socials a:nth-child(2) {
+    /* TikTok-ikon */
     background-image: url("img/footer-icon-2.svg");
 }
 
-footer .socials a:nth-child(3) {    /* YouTube-ikon */
+footer .socials a:nth-child(3) {
+    /* YouTube-ikon */
     background-image: url("img/footer-icon-3.svg");
 }
 
-footer .socials a:nth-child(4) {    /* Facebook-ikon */
+footer .socials a:nth-child(4) {
+    /* Facebook-ikon */
     background-image: url("img/footer-icon-4.svg");
 }
