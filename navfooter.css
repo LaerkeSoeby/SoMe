@@ -144,7 +144,7 @@
     .navbar-links hr {
         display: none;
     }
-    li {
+    .navbar-links li {
         float: right;
     }
     li a {
@@ -176,6 +176,7 @@
 footer {
     margin-top: 50px;
     margin-bottom: 40px;
+    font-family: 'Nunito', sans-serif, Arial;
     padding: 10px;
     background-color: var(--color1);
     background-color: #27847f;
