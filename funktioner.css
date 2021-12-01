@@ -180,8 +180,8 @@
     @media screen and (min-width: 600px) {
         .front-img {
             display: block;
-            width: 850px;
-            height: 450px;
+            width: 70%;
+            height: 58%;
             border-radius: 20px;
             position: absolute;
             z-index: 1;
@@ -197,14 +197,14 @@
         }
         .overskrift {
             background-color: #27847F;
-            width: 350px;
+            width: 20%;
             text-align: center;
             color: #EBEBEB;
             padding: 17px 5px 17px 5px;
             border-radius: 20px;
             font-family: 'Nunito', sans-serif, Arial;
             font-weight: bolder;
-            font-size: 22px;
+            font-size: 38px;
             margin: 2% 80% 0 20%;
             position: absolute;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
@@ -212,13 +212,13 @@
         }
         .brødtekst {
             background-color: #CFE6DE;
-            width: 265px;
+            width: 275px;
             text-align: left;
             color: #132C2C;
             padding: 50px 10px 17px 17px;
             border-radius: 20px;
             font-family: 'Nunito', sans-serif, Arial;
-            font-size: 16px;
+            font-size: 18px;
             margin: 5% 80% 0 20%;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
             position: absolute;
@@ -227,9 +227,9 @@
         .knap-container {
             margin: 0;
             background-color: #CFE6DE;
-            height: 300px;
+            height: 400px;
             width: 100%;
-            margin-top: 400px;
+            margin-top: 500px;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
             display: flex;
             flex-wrap: wrap;
@@ -248,9 +248,9 @@
             font-family: 'Nunito', sans-serif, Arial;
             font-weight: bolder;
             text-align: center;
-            font-size: 20px;
-            height: 160px;
-            width: 175px;
+            font-size: 26px;
+            height: 200px;
+            width: 215px;
             border-radius: 15px;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
             text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -268,7 +268,7 @@
             border-top: 3px dotted#43827E;
             margin-left: 15%;
             margin-right: 15%;
-            margin-top: 60%;
+            margin-top: 50%;
         }
         ul hr {
             display: none;
@@ -276,14 +276,14 @@
         .grå-section {
             margin: 0;
             background-color: #CFE6DE;
-            height: 280px;
+            height: 320px;
             width: 100%;
             margin-top: 100px;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
         }
         .grå-img {
-            height: 330px;
-            width: 250px;
+            height: 430px;
+            width: 350px;
             border-radius: 20px;
             margin-left: 22%;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
@@ -295,9 +295,9 @@
             font-family: 'Nunito', sans-serif, Arial;
             font-weight: bolder;
             text-align: center;
-            font-size: 25px;
-            height: 110px;
-            width: 125px;
+            font-size: 36px;
+            height: 150px;
+            width: 165px;
             border-radius: 15px;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
             text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -308,18 +308,18 @@
             align-content: center;
             align-items: center;
             margin: 8px;
-            margin-top: -55px;
-            margin-left: 37%;
+            margin-top: -50px;
+            margin-left: 35%;
         }
         .brødtekst-funktioner {
             background-color: #CFE6DE;
-            width: 300px;
+            width: 500px;
             text-align: left;
             color: #132C2C;
             padding: 17px 10px 17px 17px;
             border-radius: 20px;
             font-family: 'Nunito', sans-serif, Arial;
-            font-size: 16px;
+            font-size: 26px;
             margin-top: -12%;
             margin-left: 52%;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
@@ -327,15 +327,15 @@
         .blå-section {
             margin: 0;
             background-color: #5EAEAE;
-            height: 280px;
+            height: 320px;
             width: 100%;
             margin-top: 15%;
             margin-bottom: 15%;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
         }
         .blå-img {
-            height: 330px;
-            width: 250px;
+            height: 430px;
+            width: 350px;
             border-radius: 20px;
             margin-left: 57%;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
@@ -347,9 +347,9 @@
             font-family: 'Nunito', sans-serif, Arial;
             font-weight: bolder;
             text-align: center;
-            font-size: 25px;
-            height: 110px;
-            width: 125px;
+            font-size: 36px;
+            height: 150px;
+            width: 165px;
             border-radius: 15px;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
             text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -360,18 +360,18 @@
             align-content: center;
             align-items: center;
             margin: 8px;
-            margin-top: -55px;
+            margin-top: -48px;
             margin-left: 50%;
         }
         .blå-section .brødtekst-funktioner {
             background-color: #CFE6DE;
-            width: 300px;
+            width: 500px;
             text-align: left;
             color: #132C2C;
             padding: 17px 10px 17px 17px;
             border-radius: 20px;
             font-family: 'Nunito', sans-serif, Arial;
-            font-size: 16px;
+            font-size: 26px;
             margin-top: -12%;
             margin-left: 22%;
             box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
