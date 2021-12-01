@@ -68,14 +68,16 @@ h1{
 }
 /*Første sektion slut*/
 hr{
-    border-style: dotted 3px;
+    border-style: dotted;
+    border-top: 3px;
     color: var(--mørkgrøn);
-    margin-top: 6em;
+    margin-top: 5em;
     margin-bottom: 2em;
     width: 81vw;
 }
 /*Anden sektion med formular til oplysninger*/
 .opret-konto h3{
+    position: absolute;
     background-color: var(--grøn);
     font-family: var(--font);
     color: var(--grå);
@@ -86,12 +88,11 @@ hr{
     padding-left: 1em;
     padding-right: 0.5em;
     margin-left:1.2em;
+    margin-top: -1.5em;
     box-shadow: var(--shadow);
 }
 .formular{
-    position: relative;
-    z-index: -1;
-    margin-top: -3em;
+    margin-top: 4em;
     font-family: var(--font);
     background-color: var(--lysgrøn);
     box-shadow: var(--shadow);
@@ -233,14 +234,14 @@ hr{
     font-family: var(--font);
 }
 .opret-knap{
+    position: absolute;
     background-color: var(--gul);
     font-family: var(--font);
     border-radius: 25px;
     padding: 0.2em;
-    width: 11em;
+    width: 10em;
     text-align: center;
     box-shadow: var(--shadow);
-
 }
 /*Tredje sektion slut*/
 .afslut{
@@ -257,7 +258,7 @@ hr{
     .medlemsfordele{
         min-width: 45em;
         max-width: 60em;
-        margin-left: 20em;
+        margin-left: 25em;
         margin-right: 15em;
         height: 14em;
     }
@@ -287,7 +288,6 @@ hr{
     }
     /*Første sektion slut*/
     hr{
-
         margin: auto;
         margin-top: 8em;
         margin-bottom: 2em;
@@ -295,51 +295,71 @@ hr{
     /*Anden sektion med formular til oplysninger*/
     .flexcontainer{
         display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        background-color: var(--grøn);
+        height: 30em;
+        margin-top: 5em;
+        box-shadow: var(--shadow);
     }
     .opret-konto h3{
-        background-color: var(--grøn);
-        font-family: var(--font);
-        color: var(--grå);
-        width: 8em;
-        border-radius: 25px;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 1em;
-        padding-right: 0.5em;
-        margin-left:1.2em;
-        box-shadow: var(--shadow);
+        background-color: var(--mørkgrøn);
+    }
+    .opret-konto{
+        margin-left: 5em;
     }
     .formular{
         position: relative;
-        z-index: -1;
-        margin-top: -3em;
-        font-family: var(--font);
-        background-color: var(--lysgrøn);
-        box-shadow: var(--shadow);
-        margin-left: -8px;
-        margin-right: -8px;
-        padding-top:2.5em;
-        padding-left: 2em;
-        padding-right:2em;
-    }
-    .udfyld{
-        width: 80vw;
-        max-width: 25em;
-        height: 2em;
-        border-style: none;
-        box-shadow: var(--shadow);
-        border-radius: 25px;
-        margin-bottom:1.5em;
+        margin-top: 1em;
+        background: none;
+        box-shadow: none;
+        color: var(--lysgrøn);
     }
     .bund{
-        margin-bottom: -1em;
-    }
-    .opret-konto p{
-        position: relative;
-        font-family: var(--font);
-        font-size:x-small;
-        top: 1em;
-        left: 3.5em;
+        margin-bottom: -0.5em;
     }
     /*Anden sektion slut*/
+    /*Tredje sektion med valg af abonnement*/
+.vælg-abonnement h3{
+    background-color: var(--mørkgrøn);
+}
+.vælg-abonnement{
+    background: none;
+    box-shadow: none;
+    margin-top: 0;
+    margin-right: 5em;
+}
+.vælg-abonnement section{
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    height: 12.5em;
+    margin-bottom: 4em;
+}
+.vælg-abonnement li{
+    position: absolute;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.info{
+    background-color: var(--mørkgrøn);
+    margin-left: 41.5em;
+    margin-top:-30em;
+    width: 19em;
+}
+
+/*Tjekbokse og opret knap nederst på siden*/
+.nederst{
+    position: absolute;
+    margin-top:-28em;
+    margin-left: 40em;
+    width: 23em;
+}
+.accept{
+    font-size: 1.1em;
+}
+/*Tredje sektion slut*/
+.afslut{
+    margin-top: 30em;
+}
 }
