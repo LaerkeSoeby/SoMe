@@ -21,12 +21,21 @@ h1 {
 h2 {
     position: absolute;
     z-index: 2;
+<<<<<<< Updated upstream
     height: 20px;
     width: 250px;
     padding: 30px 20px;
     margin-left: 35px;
     margin-top: -50px;
     color: #CFE6DE;
+=======
+    height:20px;
+    width:250px;
+    padding: 25px 20px;
+    margin-left: 35px;
+    margin-top: 28px;
+    color:#CFE6DE;
+>>>>>>> Stashed changes
     background-color: #27847f;
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
@@ -51,12 +60,24 @@ h2 {
     border: none;
     cursor: pointer;
     border-radius: 20px;
+<<<<<<< Updated upstream
+=======
+}
+
+hr{
+  border-top: 3px dotted #27847f;
+  margin-left: 20px;
+  margin-right: 20px;
+>>>>>>> Stashed changes
 }
 
 
 /* w3schools.com/howto/howto_css_button_on_image.asp */
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 /* top delen med billeder BEGYNDER her....*/
 
 .container {
@@ -85,6 +106,7 @@ h2 {
     margin-bottom: 90px;
 }
 
+<<<<<<< Updated upstream
 .rengøring {
     background-color: #cfe6de;
     margin-bottom: 90px;
@@ -93,6 +115,16 @@ h2 {
 .varer {
     background-color: #5eaeae;
     margin-bottom: 90px;
+=======
+.rengøring{
+  background-color: #cfe6de;
+  margin-bottom: 90px;
+}
+
+.varer{
+  background-color: #5eaeae;
+  margin-bottom: 60px;
+>>>>>>> Stashed changes
 }
 
 
@@ -126,7 +158,12 @@ h2 {
 
 .grid-container {
     width: 100%;
+<<<<<<< Updated upstream
     margin-top: 0px;
+=======
+    margin-top:80px;
+    margin-bottom: 60px;
+>>>>>>> Stashed changes
     display: grid;
     grid-template-columns: auto auto;
     grid-row: auto auto auto;
