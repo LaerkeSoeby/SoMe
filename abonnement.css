@@ -9,82 +9,10 @@
     --gul: #f1c075;
     --sortgrøn: #132c2c;
 }
-/* nav begynder */
-#logo {
-    height: 62px;
-    margin: .5rem;
+@media screen and (min-width: 10px) {
+body{
+    background-color: var(--grå);
 }
-.navbar {
-    visibility: visible;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #CFE6DE;
-    margin-left: 0;
-    margin-right: 0;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-    height: 70px;
-}
-.navbar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.navbar-links li {
-    list-style: none;
-}
-.navbar-links li a {
-    text-decoration: none;
-    color: #132C2C;
-    padding: 1rem;
-    display: block;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    background-color: #CFE6DE;
-    text-align: left;
-}
-.toggle-button {
-    position: absolute;
-    top: 27px;
-    right: 50px;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 30px;
-}
-.toggle-button .bar {
-    height: 5px;
-    width: 60px;
-    background-color: #27847F;
-    border-radius: 10px;
-}
-.toggle-button {
-    display: flex;
-    position: absolute;
-}
-.navbar-links {
-    display: none;
-    width: 100%;
-}
-.navbar {
-    flex-direction: column;
-    align-items: flex-start;
-}
-.navbar-links ul {
-    width: 100%;
-    flex-direction: column;
-}
-.navbar-links li {
-    text-align: center;
-}
-.navbar-links a {
-    padding: .5rem 1rem;
-}
-.navbar-links.active {
-    display: flex;
-}
-/*Navbar slut*/
 /*Første sektion med overskrift, liste og knap*/
 h1{
     background-color: var(--mørkgrøn);
@@ -140,7 +68,7 @@ h1{
 }
 /*Første sektion slut*/
 hr{
-    border-style: dashed;
+    border-style: dotted 3px;
     color: var(--mørkgrøn);
     margin-top: 6em;
     margin-bottom: 2em;
@@ -286,6 +214,10 @@ hr{
     box-shadow: var(--shadow);
 }
 /*Tjekbokse og opret knap nederst på siden*/
+.nederst{
+    position: absolute;
+    margin-top: 3em;
+}
 .accept input{
     position: absolute;
 }
@@ -308,75 +240,106 @@ hr{
     width: 11em;
     text-align: center;
     box-shadow: var(--shadow);
-    margin:auto;
+
 }
 /*Tredje sektion slut*/
 .afslut{
-    margin-top: 2em;
+    margin-top: 20em;
+}
 }
 @media screen and (min-width: 600px) {
-    * {
-        margin: 0px;
-        padding: 0px;
+    /*Første sektion*/
+    h1{
+        font-size: 2em;
+        margin-top: 1.3em;
+        margin-left: 10em;
     }
-    body {
-        background-color: #EBEBEB;
+    .medlemsfordele{
+        min-width: 45em;
+        max-width: 60em;
+        margin-left: 20em;
+        margin-right: 15em;
+        height: 14em;
     }
-    .logo {
-        padding: 3px;
+    .medlemsfordele li{
+        position: absolute;
+        margin-left: 2em;
+        margin-top: 1.5em;
+        font-size: 1.4em;
     }
-    .toggle-button {
-        display: none;
-    }
-    .navbar {
-        flex-direction: row;
-        align-items: center;
-        min-width: none;
-    }
-    .navbar-links li a {
-        text-decoration: none;
-        color: #27847F;
-        padding: 1rem;
-        display: block;
-        font-family: 'Nunito', sans-serif;
-        font-weight: bold;
-        font-size: 12px;
-        background-color: #CFE6DE;
-        text-align: left;
-    }
-    .navbar-links {
-        width: 50%;
-        display: inline;
-    }
-    .navbar-links li {
-        display: inline-block;
-        justify-content: right;
-    }
-    .navbar-links ul {
-        display: flex;
-        margin: auto;
-        flex-direction: row;
-    }
-    li {
-        float: right;
-    }
-    li a {
-        display: block;
+
+    .boksogknap{
         position: relative;
-        margin: 0;
-        text-decoration: none;
-        font-size: 10px;
-        font-family: 'Nunito', sans-serif, Arial;
-        z-index: 9;
+        height: 18em;
     }
-    li i {
-        margin: 0;
+    .premiumknap{
+        left: 40em;
+        width: 10em;
+        font-size: 1.8em;
+        padding: 0.5em;
+        text-align: center;
     }
-    li a:hover {
-        color: #F1C075;
+    .note{
+        font-size: 1em;
+        left: 73em;
+        top: 22.5em;
+        width: 25em;
     }
-    li a:active {
-        color: #F1C075;
+    /*Første sektion slut*/
+    hr{
+
+        margin: auto;
+        margin-top: 8em;
+        margin-bottom: 2em;
     }
+    /*Anden sektion med formular til oplysninger*/
+    .flexcontainer{
+        display: flex;
+    }
+    .opret-konto h3{
+        background-color: var(--grøn);
+        font-family: var(--font);
+        color: var(--grå);
+        width: 8em;
+        border-radius: 25px;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 0.5em;
+        margin-left:1.2em;
+        box-shadow: var(--shadow);
+    }
+    .formular{
+        position: relative;
+        z-index: -1;
+        margin-top: -3em;
+        font-family: var(--font);
+        background-color: var(--lysgrøn);
+        box-shadow: var(--shadow);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-top:2.5em;
+        padding-left: 2em;
+        padding-right:2em;
+    }
+    .udfyld{
+        width: 80vw;
+        max-width: 25em;
+        height: 2em;
+        border-style: none;
+        box-shadow: var(--shadow);
+        border-radius: 25px;
+        margin-bottom:1.5em;
+    }
+    .bund{
+        margin-bottom: -1em;
+    }
+    .opret-konto p{
+        position: relative;
+        font-family: var(--font);
+        font-size:x-small;
+        top: 1em;
+        left: 3.5em;
+    }
+    /*Anden sektion slut*/
 }
-    /* Nav Slut */

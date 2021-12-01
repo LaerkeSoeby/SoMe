@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BB Premium</title>
     <link rel="stylesheet" href="abonnement.css">
+    <link rel="stylesheet" href="navfooter.css"
 </head>
 <body>
     <!--Navigationsbar start-->
@@ -36,12 +37,12 @@
         <h1>BoligBoss Premium</h1>
         <div class="boksogknap">
             <ul class="medlemsfordele">
-                <li>Adgang til  alle hacks på appen</li>
-                <li>Få adgang til eksklusive partner-fordele med vores samarbejds-partnere i form af rabatter*</li>
-                <li>Ingen reklamer</li>
-                <li>Se og benyt vores udvalg af budget-skabeloner</li>
-                <li>Rabat på vores produkter</li>
-                <li>Tilpas din profil med de emner der er vigtigst for dig</li>
+                <li>Adgang til  alle hacks på appen</li><br>
+                <li>Få adgang til eksklusive partner-fordele med vores samarbejds-partnere i form af rabatter*</li><br>
+                <li>Ingen reklamer</li><br>
+                <li>Se og benyt vores udvalg af budget-skabeloner</li><br>
+                <li>Rabat på vores produkter</li><br>
+                <li>Tilpas din profil med de emner der er vigtigst for dig</li><br>
             </ul>
             <h3 class="premiumknap">Få Premium fra 39,-</h3>
             <p class="note">Op til 14 dages gratis prøveperiode</p>
@@ -49,69 +50,71 @@
     </section>
     <hr>
     <!--Anden sektion på siden, med formular til at udfylde oplysninger-->
-    <section class="opret-konto">
-        <h3>Opret en konto</h3>
-        <form class="formular">
-            <label for="navn">Navn*</label><br>
-            <input type="text" name="navn" class="udfyld"><br>
-            <label for="email">Email*</label><br>
-            <input type="email" name="email" class="udfyld"><br>
-            <label for="email2">Gentag email*</label><br>
-            <input type="email" name="email2" class="udfyld"><br>
-            <label for="kode">Adgangskode*</label><br>
-            <input type="password" name="kode" class="udfyld"><br>
-            <label for="kode2">Gentag adgangskode*</label><br>
-            <input type="password" name="kode2" class="udfyld bund"><br>
-        </form>
-        <p>Felter markeret med * skal udfyldes</p>
-    </section>
-    <!--Tredje sektion mede valg af abonnement-->
-    <section class="vælg-abonnement">
-        <h3>Vælg abonnement</h3>
-        <section class="mnd1">
-            <h4>1 måned - 39,-</h4>
-            <ul>
-                <li>39,00/mdr</li>
-                <li>7 dages prøveperiode</li>
-                <li>Adgang til alle hacks</li>
-                <li>Ingen reklamer</li>
-                <li>Ingen binding</li>
-            </ul>
+    <div class="flexcontainer">
+        <section class="opret-konto">
+            <h3>Opret en konto</h3>
+            <form class="formular">
+                <label for="navn">Navn*</label><br>
+                <input type="text" name="navn" class="udfyld"><br>
+                <label for="email">Email*</label><br>
+                <input type="email" name="email" class="udfyld"><br>
+                <label for="email2">Gentag email*</label><br>
+                <input type="email" name="email2" class="udfyld"><br>
+                <label for="kode">Adgangskode*</label><br>
+                <input type="password" name="kode" class="udfyld"><br>
+                <label for="kode2">Gentag adgangskode*</label><br>
+                <input type="password" name="kode2" class="udfyld bund"><br>
+            </form>
+            <p>Felter markeret med * skal udfyldes</p>
         </section>
-        <section class="mnd3">
-            <h4>3 måneder - 99,-</h4>
-            <ul>
-                <li>33,00/mdr</li>
-                <li>14 dages prøveperiode</li>
-                <li>Adgang til alle hacks</li>
-                <li>Ingen reklamer</li>
-                <li>Ingen binding</li>
-            </ul>
-        <p class="spar18">Spar 18%</p>
-        </section>
-        <section class="mnd6">
-            <h4>6 måneder - 179,-</h4>
-            <ul>
-                <li>29,83/mdr</li>
-                <li>14 dages prøveperiode</li>
-                <li>Adgang til alle hacks</li>
-                <li>Ingen reklamer</li>
-                <li>Ingen binding</li>
-            </ul>
-            <p class="spar30">Spar 30%</p>
-        </section>
-        <p class="info">* Adgang til partnerfordele er ikke tilgængelig i prøveperiode og kræver betaling af abonnement.</p>
-    </section>
+        <!--Tredje sektion mede valg af abonnement-->
+        <section class="vælg-abonnement">
+            <h3>Vælg abonnement</h3>
+            <section class="mnd1">
+                <h4>1 måned - 39,-</h4>
+                <ul>
+                    <li>39,00/mdr</li>
+                    <li>7 dages prøveperiode</li>
+                    <li>Adgang til alle hacks</li>
+                    <li>Ingen reklamer</li>
+                    <li>Ingen binding</li>
+                </ul>
+            </section>
+            <section class="mnd3">
+                <h4>3 måneder - 99,-</h4>
+                <ul>
+                    <li>33,00/mdr</li>
+                    <li>14 dages prøveperiode</li>
+                    <li>Adgang til alle hacks</li>
+                    <li>Ingen reklamer</li>
+                    <li>Ingen binding</li>
+                </ul>
+            <p class="spar18">Spar 18%</p>
+            </section>
+            <section class="mnd6">
+                <h4>6 måneder - 179,-</h4>
+                <ul>
+                    <li>29,83/mdr</li>
+                    <li>14 dages prøveperiode</li>
+                    <li>Adgang til alle hacks</li>
+                    <li>Ingen reklamer</li>
+                    <li>Ingen binding</li>
+                </ul>
+                <p class="spar30">Spar 30%</p>
+            </section>
+            <p class="info">* Adgang til partnerfordele er ikke tilgængelig i prøveperiode og kræver betaling af abonnement.</p>
+            <div class="nederst">
+                <form class="accept">
+                    <input type="checkbox" name="vilkår" class="vilkår">
+                    <label class="valg">Jeg accepterer BoligBoss’ <a href="">handelsbetingelser</a> og <a href="">vilkår</a></label><br>
+                    <input type="checkbox" name="nyhedsbrev" class="nyhedsbrev">
+                    <label class="valg">Ja tak, til nyhedsbrev på mail</label>
+                </form>
+                    <h4 class="opret-knap">Opret Premium</h4>
+            </div>
+        </section>  
+    </div>  
     <!--Tjekbokse til vilkår og opret knap, nedeerst på siden-->
-    <form class="accept">
-        <input type="checkbox" name="vilkår" class="vilkår">
-        <label class="valg">Jeg accepterer BoligBoss’ <a href="">handelsbetingelser</a> og <a href="">vilkår</a></label><br>
-        <input type="checkbox" name="nyhedsbrev" class="nyhedsbrev">
-        <label class="valg">Ja tak, til nyhedsbrev på mail</label>
-    </form>
-    <section class="opret-knap">
-        <h3>Opret Premium</h3>
-    </section>
     <hr class="afslut">
     <!--Footer start-->
     <footer>
