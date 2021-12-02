@@ -178,6 +178,9 @@
     /* Web version starter*/
     
     @media screen and (min-width: 600px) {
+        body {
+            background-color: #EBEBEB;
+        }
         .front-img {
             display: block;
             width: 70%;
