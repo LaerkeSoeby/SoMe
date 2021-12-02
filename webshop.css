@@ -294,13 +294,23 @@ hr {
         margin-top: 150px;
         margin-bottom: 100px;
     }
+
+    .container img {
+        margin-left: 115px;
+        margin-top: -50px;
+    }
+
+    .container img.rengøring {
+        margin-left: 115px;
+        margin-top: -50px;
+    }
     
     .container .btn {
         position: absolute;
         width: 120px;
         height: 50px;
         top: 77%;
-        left: 58%;
+        left: 72%;
     }
 
     .container .btn.rengøring {
