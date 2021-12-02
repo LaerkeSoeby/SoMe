@@ -2,13 +2,17 @@
 
 /* nav begynder */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #logo {
     height: 62px;
     margin: .5rem;
 }
 
 .navbar {
-    visibility: visible;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,9 +28,10 @@
     margin: 0;
     padding: 0;
     display: flex;
-    position: absolute;
+    max-width: 1760px;
     z-index: 9;
     background-color: #CFE6DE;
+    margin-top: -14px;
 }
 
 .navbar-links li {
@@ -70,6 +75,13 @@
 .navbar-links {
     display: none;
     width: 100%;
+    justify-content: flex-end;
+}
+
+.navbar-links hr {
+    border: 0;
+    border-top: 3px dotted #43827E;
+    margin: 0 1rem;
 }
 
 .navbar {
@@ -94,27 +106,14 @@
     display: flex;
 }
 
-@media screen and (min-width: 600px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-    ul hr {
-        display: none;
-    }
-    body {
-        background-color: #EBEBEB;
-    }
-    .logo {
-        padding: 3px;
-    }
+
+@media screen and (min-width: 720px) {
     .toggle-button {
         display: none;
     }
     .navbar {
         flex-direction: row;
         align-items: center;
-        min-width: none;
     }
     .navbar-links li a {
         text-decoration: none;
@@ -128,21 +127,24 @@
         text-align: left;
     }
     .navbar-links {
-        width: 50%;
-        display: inline;
-        height: 70px;
         display: flex;
         align-items: center;
+        margin-right: 1%;
     }
     .navbar-links li {
         display: inline-block;
         justify-content: right;
     }
     .navbar-links ul {
+        width: auto;
         display: flex;
         flex-direction: row;
+        margin-top: 0;
     }
-    li {
+    .navbar-links hr {
+        display: none;
+    }
+    .navbar-links li {
         float: right;
     }
     li a {
@@ -174,6 +176,7 @@
 footer {
     margin-top: 50px;
     margin-bottom: 40px;
+    font-family: 'Nunito', sans-serif, Arial;
     padding: 10px;
     background-color: var(--color1);
     background-color: #27847f;

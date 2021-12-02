@@ -16,6 +16,7 @@ h1 {
     font-family: 'Nunito', sans-serif;
     text-align: center;
     border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 h2 {
@@ -25,15 +26,22 @@ h2 {
     width: 250px;
     padding: 30px 20px;
     margin-left: 35px;
-    margin-top: -50px;
+    margin-top: 30px;
     color: #CFE6DE;
     background-color: #27847f;
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     border-radius: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
+hr {
+    border-top: 3px dotted#43827E;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
 .btn {
     position: absolute;
     width: 150px;
@@ -51,6 +59,7 @@ h2 {
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 
@@ -62,7 +71,7 @@ h2 {
 .container {
     position: relative;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -76,10 +85,22 @@ h2 {
     margin: auto;
     margin-left: 20px;
     margin-top: -50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+    
+.container img.rengøring {
+    width: 60%;
+    height: auto;
+    position: relative;
+    border-radius: 15px;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: -50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .gavekort {
-    height: 120px;
+    height: 150px;
     background-color: #5eaeae;
     margin-top: 80px;
     margin-bottom: 90px;
@@ -92,7 +113,7 @@ h2 {
 
 .varer {
     background-color: #5eaeae;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 
@@ -115,8 +136,28 @@ h2 {
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
+.container .btn.rengøring {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1c075;
+    color: #132c2c;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
 .container .btn:hover {
     background-color: black;
 }
@@ -126,7 +167,8 @@ h2 {
 
 .grid-container {
     width: 100%;
-    margin-top: 0px;
+    margin-top: 80px;
+    margin-bottom: 60px;
     display: grid;
     grid-template-columns: auto auto;
     grid-row: auto auto auto;
@@ -149,6 +191,7 @@ h2 {
     background-color: #5eaeae;
     border-radius: 25px;
     padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks2 {
@@ -160,7 +203,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks3 {
@@ -172,7 +216,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks4 {
@@ -184,7 +229,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks5 {
@@ -197,7 +243,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .boks6 {
@@ -210,7 +257,8 @@ h2 {
     color: #ebebeb;
     background-color: #5eaeae;
     border-radius: 25px;
-    padding: 8px 10px
+    padding: 8px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 @media screen and (min-width: 600px) {
@@ -223,7 +271,8 @@ h2 {
     }
     h1 {
         margin-top: 90px;
-        margin-left: 233px;
+        margin-left: 230px;
+        
     }
     h2 {
         padding: 30px 20px;
@@ -232,25 +281,66 @@ h2 {
     }
     .btn {
         position: absolute;
-        top: 9%;
-        left: 16%;
+        top: 14%;
+        left: 17%;
+        width: 200px;
+        height: 80px;
+        font-size: 30px;
     }
+
     .flex-container {
-        display: flex;
-        background-color: #5eaeae;
-        margin-top: 80px;
+        display:flex;
+        width:100%;
+        margin-top: 150px;
         margin-bottom: 100px;
     }
+
+    .container img {
+        margin-left: 115px;
+        margin-top: -50px;
+    }
+
+    .container img.rengøring {
+        margin-left: 115px;
+        margin-top: -50px;
+    }
+    
     .container .btn {
         position: absolute;
         width: 120px;
         height: 50px;
-        top: 100%;
-        left: 50%;
+        top: 77%;
+        left: 72%;
     }
+
+    .container .btn.rengøring {
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        top: 77%;
+        left: 72%;
+    }
+
+    .gavekort {
+        background-color: #5eaeae;
+        height: 350px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding:0px;
+    }
+    
     .rengøring {
         background-color: #5eaeae;
-        margin-bottom: 90px;
+        height: 350px;
+        margin-bottom: 50px;
+        padding:0px;
+    }
+    
+    .varer {
+        background-color: #5eaeae;
+        height: 350px;
+        margin-bottom: 50px;
+        padding:0px;
     }
     .grid-container {
         display: grid;
